@@ -29,7 +29,7 @@ export const OptionButton = styled.button`
   box-shadow: 5px 5px 8px 1px rgba(112, 111, 111, 1);
   cursor: pointer;
   transition: 250ms background-color ease-in, 250ms color ease-in;
-  &:hover, &:focus {
+  &:hover {
     background-color: #f787b4;
     color: white;
   }

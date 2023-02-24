@@ -28,7 +28,7 @@ export function Statistics({good, neutral, bad, total, positivePercentage}) {
       </StatisticsItem>
       <StatisticsItem>
         {renderIcons('percent', iconSize.md)}
-        <span className="stat__title">Positive FeedBack</span>
+        <span className="stat__title ">Positive FeedBack</span>
         <span className="stat__value">{positivePercentage}%</span>
       </StatisticsItem>
   </StatisticsList>
